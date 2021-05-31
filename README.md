@@ -3,8 +3,9 @@
 ## How to apply
 
 ```
+git clone https://github.com/spg-games/wireguard-kmod-logging-patch.git /tmp
 cd /usr/ports/net/wireguard-kmod/
-mv files ./
+mv /tmp/wireguard-kmod-logging-patch/files ./
 make install or make patch
 ```
 
